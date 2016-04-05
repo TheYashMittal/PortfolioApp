@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgColor">#d5dfeb</color>
+    <color name="text_def">#000000</color>
+    <color name="text_em">#FFFFFF</color>
+    <color name="bg_def_pressed">#ddf29e30</color>
+    <color name="bg_def_non_pressed">#f29e30</color>
+    <color name="bg_em_pressed">#ddf21856</color>
+    <color name="bg_em_non_pressed">#f21856</color>
+</resources>

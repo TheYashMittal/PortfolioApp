@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/MainActivityRelLayout"
+    android:background="@color/bgColor"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:textColor="#203854"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Spotify Streamer"
+        android:id="@+id/b1_Spotify"
+        android:layout_below="@+id/textView"
+        style="@style/buttonStyleDef" />
+
+    <Button
+        android:text="Scores App"
+        android:id="@+id/b2_Scores"
+        android:layout_below="@+id/b1_Spotify"
+        style="@style/buttonStyleDef"/>
+
+    <Button
+        android:text="Library App"
+        android:id="@+id/b3_Lib"
+        android:layout_below="@+id/b2_Scores"
+        style="@style/buttonStyleDef"/>
+
+    <Button
+        android:text="Build It Bigger"
+        android:id="@+id/b4_bib"
+        android:layout_below="@+id/b3_Lib"
+        style="@style/buttonStyleDef" />
+
+    <Button
+        android:text="XYZ Reader"
+        android:id="@+id/b5_xyz"
+        android:layout_below="@+id/b4_bib"
+        style="@style/buttonStyleDef"/>
+
+    <Button
+        android:text="Capstone: My Own App"
+        android:id="@+id/b6_my"
+        android:layout_below="@+id/b5_xyz"
+        style="@style/buttonStyleEm" />
+
+
+</RelativeLayout>
+
+<!--
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.portfolio.mittalpers.portfolio.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
+-->
